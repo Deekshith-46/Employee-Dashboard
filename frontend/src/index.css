@@ -1,0 +1,113 @@
+/* 🌟 Beautiful New Theme */
+body {
+  background: #E9F5F9 !important;  /* Soft Aqua */
+  font-family: "Poppins", sans-serif !important;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out !important;
+}
+
+/* 🔹 Stylish Container */
+.custom-container {
+  background: #FFFFFF !important;
+  padding: 30px !important;
+  border-radius: 15px !important;
+  box-shadow: 0px 8px 20px rgba(0, 119, 182, 0.2) !important; /* Blue Glow */
+  margin-top: 40px !important;
+}
+
+/* 🔹 Header Title */
+.custom-title {
+  font-size: 36px !important;
+  font-weight: 700 !important;
+  color: #0077B6 !important;  /* Ocean Blue */
+  text-align: center !important;
+  margin-bottom: 25px !important;
+  text-transform: uppercase !important;
+}
+
+/* 🔥 Buttons */
+button {
+  font-size: 16px !important;
+  padding: 12px 18px !important;
+  border-radius: 10px !important;
+  background: #F77F00 !important;  /* Vibrant Orange */
+  color: white !important;
+  border: none !important;
+  transition: all 0.3s ease-in-out !important;
+}
+
+button:hover {
+  background: #E76F00 !important; /* Darker Orange */
+  transform: scale(1.08) !important;
+  box-shadow: 0px 5px 15px rgba(247, 127, 0, 0.3) !important;
+}
+
+/* 🔹 Input Fields */
+input {
+  padding: 12px !important;
+  margin: 5px 0 !important;
+  width: 100% !important;
+  border-radius: 10px !important;
+  border: 1px solid #0077B6 !important;
+  background: #FFFFFF !important;
+  box-shadow: inset 2px 2px 5px rgba(0, 119, 182, 0.1) !important;
+}
+
+/* 🔷 Table Design */
+table {
+  width: 100% !important;
+  margin-top: 20px !important;
+  border-radius: 15px !important;
+  overflow: hidden !important;
+}
+
+th {
+  background: #0077B6 !important; /* Ocean Blue */
+  color: white !important;
+  padding: 14px !important;
+  font-size: 17px !important;
+}
+
+td {
+  padding: 14px !important;
+  border-bottom: 1px solid #ddd !important;
+  font-size: 16px !important;
+}
+
+/* 🎭 Modals with Vibrant Colors */
+.modal-content {
+  background: #FFFFFF !important;
+  border-radius: 15px !important;
+  box-shadow: 0px 8px 20px rgba(0, 119, 182, 0.3) !important;
+}
+
+/* 🔹 Search Results */
+.list-group-item {
+  background: #FEF3E2 !important; /* Soft Orange */
+  border-left: 5px solid #F77F00 !important; /* Vibrant Orange Accent */
+  transition: all 0.3s ease-in-out !important;
+  cursor: pointer !important;
+  color: black !important;
+  margin-bottom: 10px;
+}
+
+.list-group-item:hover {
+  background-color: #F77F00 !important;
+  color: white !important;
+  transform: scale(1.08) !important;
+}
+
+/* 🎭 Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0 !important;
+    transform: translateY(-20px) !important;
+  }
+  to {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+}
+
+.custom-container, .modal-content {
+  animation: fadeIn 0.5s ease-in-out !important;
+}
