@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <Container className="custom-container mt-4 p-4">
-      <h1 className="custom-title">Employee Dashboard</h1>
+      <h1 className="custom-title">Employee Dashboard - 2</h1>
       <SearchBar setEmployees={setEmployees} />
       <AddEmployee />
       <EmployeeTable employees={employees} />
